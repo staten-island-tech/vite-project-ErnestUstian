@@ -58,9 +58,16 @@ const food = [
     nationality: "Georgian"
 },
 {
-    name: "Baklava",
+    name: "Gata",
     price: 5,
-    img: "https://www.196flavors.com/wp-content/uploads/2016/05/tenbel-pakhlava-2.jpg",
+    img: "https://mission-food.com/wp-content/uploads/2015/12/Gata-24.jpg",
+    nationality: "Armenian"
+},
+{
+    name: "Lavash",
+    price: 3,
+    img: "https://assets.epicurious.com/photos/5df942b3f7763a0008ad91b9/1:1/w_1920,c_limit/lavash-recipe-121719.jpg",
     nationality: "Armenian"
 }
 ]
+export {food}
