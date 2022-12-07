@@ -29,3 +29,12 @@ h2{
     color: white;
     text-align: center;
 }
+.BTN{
+    width: 35%;
+    font-size: 25px;
+    color: white
+}
+.Buttons {
+    display: flex;
+    justify-content: space-around;
+}
