@@ -1,2 +1,1 @@
 import { food } from "./Food";
-
