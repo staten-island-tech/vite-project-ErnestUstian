@@ -5,6 +5,8 @@ body,
     padding: 0;
     box-sizing: border-box;
     font-size: 62.5%;
+}
+body{
     background-color: rgb(172, 23, 23);
 }
 #Menupage{
@@ -17,6 +19,7 @@ body,
 img{
     width: 90%;
     align-items: center;
+    height: 30rem;
 }
 h1{
     text-align: center;
@@ -38,13 +41,15 @@ h2{
     display: flex;
     justify-content: space-around;
 }
-/* 
-.MenuPage{
-    display: flex;
-}
-*/
 .card{
+    display: flex;
+    flex-direction: column;
     width: 28%;
     border: 3px solid black;
     border-radius: 10px;
-} 
+    align-items: center;
+    justify-content: space-around;
+    margin-bottom: 3rem;
+    padding: 2rem;
+    /* background-color: #B54430;
+}  */
