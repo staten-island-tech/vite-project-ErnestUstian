@@ -51,5 +51,16 @@ h2{
     justify-content: space-around;
     margin-bottom: 3rem;
     padding: 2rem;
-    /* background-color: #B54430;
-}  */
+}
+.WarmCool{
+    display: flex;
+    justify-content: space-around;
+    flex-wrap: wrap;
+}
+.Colors{
+    width: 12%;
+    font-size: 25px;
+    color: white;
+    margin: 10px;
+}
+

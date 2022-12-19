@@ -45,3 +45,36 @@ DOM.Khachapuri.addEventListener("click", function(){
     </div>
     `))
 })
+DOM.food.addEventListener("click", function(){
+    DOM.Menupage.innerHTML = "";
+    food.filter((food) => food.group.includes("food"))
+    .forEach((food) => DOM.Menupage.insertAdjacentHTML("beforeend", `
+    <div class="card">
+        <h1>${food.name}</h1>
+        <h2>$${food.price}</h2>
+        <img src="${food.img}">
+    </div>
+    `))
+})
+DOM.sweet.addEventListener("click", function(){
+    DOM.Menupage.innerHTML = "";
+    food.filter((food) => food.group.includes("sweet"))
+    .forEach((food) => DOM.Menupage.insertAdjacentHTML("beforeend", `
+    <div class="card">
+        <h1>${food.name}</h1>
+        <h2>$${food.price}</h2>
+        <img src="${food.img}">
+    </div>
+    `))
+})
+DOM.drink.addEventListener("click", function(){
+    DOM.Menupage.innerHTML = "";
+    food.filter((food) => food.group.includes("drink"))
+    .forEach((food) => DOM.Menupage.insertAdjacentHTML("beforeend", `
+    <div class="card">
+        <h1>${food.name}</h1>
+        <h2>$${food.price}</h2>
+        <img src="${food.img}">
+    </div>
+    `))
+})

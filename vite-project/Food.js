@@ -43,7 +43,7 @@ const food = [
 {
     name: "Shashlik",
     price: 15,
-    img: "https://thumbs.dreamstime.com/z/concept-georgian-cuisine-meat-board-shashlik-grilled-pork-ribs-lulya-kebab-shish-french-fries-vegetables-feed-139705680.jpg",
+    img: "https://petersfoodadventures.com/wp-content/uploads/2017/02/Russian-shashlik.png",
     type: "",
     group: "food",
     nationality: "georgian"
@@ -59,7 +59,7 @@ const food = [
 {
     name: "Churchkhela",
     price: 6.50,
-    img: "https://i5.walmartimages.com/asr/81f23074-0a69-4d6c-88b7-76d3f16e8efb.1409d91b1b3cedc3207aef3532190db4.png?odnHeight=612&odnWidth=612&odnBg=FFFFFF",
+    img: "https://m.media-amazon.com/images/I/41v8Lv+dJEL._AC_SY580_.jpg",
     type: "",
     group: "sweet",
     nationality: "georgian"

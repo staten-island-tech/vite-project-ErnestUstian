@@ -5,8 +5,10 @@ const DOM = {
     Khachapuri: document.getElementById("Khachapuri"),
     food: document.getElementById("food"),
     sweet: document.getElementById("sweet"),
-    drinku: document.getElementById("drink"),
-    Menupage: document.getElementById("Menupage")
+    drink: document.getElementById("drink"),
+    Menupage: document.getElementById("Menupage"),
+    Warm: document.getElementById("Warm"),
+    Cool: document.getElementById("Cool"),
 }
 
 export {DOM}
