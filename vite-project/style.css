@@ -35,7 +35,7 @@ h2{
 .BTN{
     width: 12%;
     font-size: 25px;
-    color: white
+    color: black;
 }
 .Buttons {
     display: flex;
@@ -60,7 +60,7 @@ h2{
 .Colors{
     width: 12%;
     font-size: 25px;
-    color: white;
+    color: black;
     margin: 10px;
 }
 
