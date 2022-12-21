@@ -7,7 +7,7 @@ body,
     font-size: 62.5%;
 }
 body{
-    background-color: rgb(172, 23, 23);
+    background-color: var(--warm);
 }
 #Menupage{
     display: flex;
@@ -51,6 +51,7 @@ h2{
     justify-content: space-around;
     margin-bottom: 3rem;
     padding: 2rem;
+    background-color: var(--warm-secondary);
 }
 .WarmCool{
     display: flex;
@@ -63,4 +64,10 @@ h2{
     color: black;
     margin: 10px;
 }
+:root{
+    --warm: #AC1717;
+    --warm-secondary: ##D02626;
+    --cool: #17acac;
+    --cool-secondary:#1DD9D9;
 
+}
