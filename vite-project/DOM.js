@@ -8,7 +8,6 @@ const DOM = {
     drink: document.getElementById("drink"),
     Menupage: document.getElementById("Menupage"),
     Warm: document.getElementById("Warm"),
-    Cool: document.getElementById("Cool"),
 }
 
 export {DOM}
